@@ -1,0 +1,33 @@
+﻿Сборка начата 06.07.2017 0:08:47.
+     1>Проект "D:\проекты\Новая папка\battleShips+\battleShips+.vcxproj" в узле 2 (целевые объекты Build).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt AbstractMapBuilder.cpp AbstractRender.cpp Cell.cpp Map.cpp Player.cpp Ship.cpp State.cpp StateManager.cpp "Исходный код.cpp"
+         Исходный код.cpp
+     1>d:\проекты\новая папка\battleships+\исходный код.cpp(6): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+         StateManager.cpp
+         State.cpp
+         Ship.cpp
+     1>d:\проекты\новая папка\battleships+\ship.cpp(31): warning C4800: bool *: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+         Player.cpp
+         Map.cpp
+         Cell.cpp
+         AbstractRender.cpp
+         AbstractMapBuilder.cpp
+     1>d:\проекты\новая папка\battleships+\abstractmapbuilder.cpp(89): warning C4800: int: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\проекты\Новая папка\Debug\battleShips+.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\проекты\Новая папка\Debug\battleShips+.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\проекты\Новая папка\Debug\battleShips+.lib" /MACHINE:X86 Debug\AbstractMapBuilder.obj
+         Debug\AbstractRender.obj
+         Debug\Cell.obj
+         Debug\Map.obj
+         Debug\Player.obj
+         Debug\Ship.obj
+         Debug\State.obj
+         Debug\StateManager.obj
+         "Debug\Исходный код.obj"
+         battleShips+.vcxproj -> D:\проекты\Новая папка\Debug\battleShips+.exe
+     1>Сборка проекта "D:\проекты\Новая папка\battleShips+\battleShips+.vcxproj" завершена (целевые объекты Build).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:05.30
