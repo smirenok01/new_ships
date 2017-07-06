@@ -7,6 +7,6 @@ int main()
 	StateManager Game;
 	State* inGame=new InGameState();
 	Game.ChangeState(inGame);
-
+	//
 	return 0;
 }
